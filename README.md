@@ -5,7 +5,7 @@ if you want more endpoints added - make a pull request :)
 
 
 ```bash
-pip install requests, urllib
+pip install requests
 ```
 
 after that:
