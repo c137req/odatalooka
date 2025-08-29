@@ -34,7 +34,7 @@ def IsODataService(baseURL):
     return False, ""
 
 def ScanHost(Host):
-    # check both http, https, and non-specified urls in-case others are(n"t) odata services
+    # check both http, https, and non-specified urls in-case others are(n't) odata services
     Schemes = ["http://", "https://"] if not Host.startswith(("http://", "https://")) else [""]
     Hosts = [scheme + Host if scheme else Host for scheme in Schemes]
 
